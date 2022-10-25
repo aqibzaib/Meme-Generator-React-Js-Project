@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+body {
+  margin: 0;
+  font-family: "Karla";
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.nav {
+  border: 2px solid rgb(136, 133, 133);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0.1rem;
+  height: 65px;
+  left: 0px;
+  top: 0px;
+  border-radius: 5px;
+
+  background: #659dbd;
+  color: WHITE;
+  margin-bottom: 2rem;
+}
+.nav--left {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.nav--right {
+  margin-right: 2rem;
+}
+
+.nav--left-img {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin-left: 0px;
+}
+.nav--left-h2 {
+  padding-left: 0.5rem;
+  font-style: normal;
+  font-size: 20.7482px;
+  line-height: 24px;
+  letter-spacing: 0.3rem;
+}
+.nav--left-h2:hover {
+  color: black;
+  border-bottom: 2px solid hwb(0 15% 17%);
+}
+.nav--right-p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  text-align: right;
+}
+.nav--right-p:hover {
+  color: black;
+  border-bottom: 2px solid hwb(0 15% 17%);
+}
+
+.form {
+  margin-top: -1rem;
+  display: flex;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.form .left {
+  margin-left: auto;
+
+  flex-grow: 0.5;
+  border: 1px solid #d5d4d8;
+  border-radius: 5px;
+}
+.form .rigth {
+  margin-right: auto;
+  flex-grow: 0.5;
+  margin-left: 1rem;
+  height: 35px;
+  border: 1px solid #d5d4d8;
+  border-radius: 5px;
+  text-indent: 0.5rem;
+}
+
+.button {
+  padding: 1rem;
+  margin-top: -15px;
+  text-indent: 0.5rem;
+  border-radius: 0.5rem;
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: rgb(170, 69, 69);
+  color: white;
+}
+.button--parent {
+  display: flex;
+  justify-content: center;
+}
+.image--parent {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.image {
+  width: 700px;
+  height: 400px;
+  margin-top: 15px;
+  border: 2px solid gray;
+}
+.imageText {
+  position: absolute;
+  color: white;
+  font-size: xx-large;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottomText {
+  justify-self: flex-end;
+
+  margin-top: 150px;
+}
